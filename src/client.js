@@ -1,14 +1,16 @@
 import App from './App'
+import ReactDOM from 'react-dom'
 import { BrowserRouter } from 'react-router-dom'
-import React from 'react'
-import { hydrate } from 'react-dom'
+import registerServiceWorker from './registerServiceWorker'
 
-hydrate(
+ReactDOM.render(
   <BrowserRouter>
     <App />
   </BrowserRouter>,
   document.getElementById('root')
 )
+
+registerServiceWorker()
 
 if (module.hot) {
   module.hot.accept()
