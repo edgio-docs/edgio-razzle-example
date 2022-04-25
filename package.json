@@ -29,7 +29,7 @@
   "devDependencies": {
     "@layer0/cli": "^3.6.0",
     "@layer0/core": "^3.6.0",
-    "@layer0/devtools": "^3.6.0",
+    "@layer0/devtools": "^3.17.8",
     "@layer0/prefetch": "^3.6.0",
     "babel-preset-razzle": "4.0.4",
     "html-webpack-plugin": "^4.5.2",
