@@ -14,8 +14,8 @@
     "format": "prettier '**/*' --ignore-unknown --write"
   },
   "dependencies": {
-    "@layer0/razzle": "^3.6.0",
-    "@layer0/react": "^4.5.0",
+    "@layer0/razzle": "^4.13.9",
+    "@layer0/react": "^4.13.9",
     "axios": "^0.21.1",
     "express": "^4.17.1",
     "npm": "^8.1.4",
@@ -27,10 +27,10 @@
     "workbox-webpack-plugin": "^6.4.1"
   },
   "devDependencies": {
-    "@layer0/cli": "^3.6.0",
-    "@layer0/core": "^3.6.0",
-    "@layer0/devtools": "^3.6.0",
-    "@layer0/prefetch": "^3.6.0",
+    "@layer0/cli": "^4.13.9",
+    "@layer0/core": "^4.13.9",
+    "@layer0/devtools": "^4.13.9",
+    "@layer0/prefetch": "^4.13.9",
     "babel-preset-razzle": "4.0.4",
     "html-webpack-plugin": "^4.5.2",
     "mini-css-extract-plugin": "^0.9.0",
