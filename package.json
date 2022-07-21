@@ -14,7 +14,7 @@
     "format": "prettier '**/*' --ignore-unknown --write"
   },
   "dependencies": {
-    "@layer0/razzle": "^4.13.9",
+    "@layer0/razzle": "^4.17.0",
     "@layer0/react": "^4.13.9",
     "axios": "^0.21.1",
     "express": "^4.17.1",
