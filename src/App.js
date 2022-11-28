@@ -4,7 +4,7 @@ import Header from './components/Header'
 import { useEffect, useState } from 'react'
 import ProductPage from './components/ProductPage'
 import { Route, Switch, Redirect } from 'react-router-dom'
-import { prefetch } from '@layer0/prefetch/window/prefetch'
+import { prefetch } from '@edgio/prefetch/window/prefetch'
 import ProductListingPage from './components/ProductListingPage'
 
 const App = () => {

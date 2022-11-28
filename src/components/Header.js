@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom'
-import { Prefetch } from '@layer0/react'
+import { Prefetch } from '@edgio/react'
 import { getCategories } from '../lib/cms'
 import { useEffect, useState } from 'react'
 
@@ -31,9 +31,9 @@ export default function Header() {
           <img
             width={200}
             height={55.59}
-            src="/layer0-icon.svg"
-            alt="Layer0 Logo"
-            title="Layer0 Logo"
+            src="/edgio-icon.svg"
+            alt="Edgio Logo"
+            title="Edgio Logo"
           />
           <div className="text-center text-gray-700">React Example</div>
         </Link>

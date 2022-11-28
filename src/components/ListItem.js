@@ -1,6 +1,6 @@
 import Rating from './Rating'
 import { Link } from 'react-router-dom'
-import { Prefetch } from '@layer0/react'
+import { Prefetch } from '@edgio/react'
 
 const ListItem = ({ product }) => {
   return (

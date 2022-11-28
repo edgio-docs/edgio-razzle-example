@@ -61,7 +61,7 @@ server
             <body>
                 <div id="root">${markup}</div>
                 ${jsScriptTagsFromAssets(assets, 'client', ' defer crossorigin')}
-                <script defer src="/__layer0__/devtools/install.js"></script>
+                <script defer src="/__edgio__/devtools/install.js"></script>
             </body>
         </html>`
       )

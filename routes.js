@@ -1,6 +1,6 @@
-const { Router } = require('@layer0/core/router')
-const { razzleRoutes } = require('@layer0/razzle')
-const { API_CACHE_HANDLER } = require('./layer0/cache')
+const { Router } = require('@edgio/core/router')
+const { razzleRoutes } = require('@edgio/razzle')
+const { API_CACHE_HANDLER } = require('./edgio/cache')
 
 module.exports = new Router()
   .match('/api/:path*', API_CACHE_HANDLER)
